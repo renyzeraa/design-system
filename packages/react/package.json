@@ -1,5 +1,5 @@
 {
-    "name": "@renyzera-ds/tokens",
+    "name": "@renyzera-ds/react",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/index.js",
@@ -14,8 +14,9 @@
     "license": "ISC",
     "type": "commonjs",
     "devDependencies": {
+        "@renyzera-ds/tokens": "^1.0.0",
+        "@renyzera-ds/ts-config": "*",
         "tsup": "^8.5.1",
-        "typescript": "^5.9.3",
-        "@renyzera-ds/ts-config": "*"
+        "typescript": "^5.9.3"
     }
 }

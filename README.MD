@@ -1,4 +1,4 @@
-# Componentes
+# Componentes Design System
 
 -   [ ] Button
 -   [ ] Heading
@@ -8,3 +8,7 @@
 -   [ ] Checkbox
 -   [ ] Avatar
 -   [ ] MultiStep
+
+## Sobre
+
+Monorepo criado com a itenção de unificar todos projetos no mesmo repositório.

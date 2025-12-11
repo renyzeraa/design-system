@@ -1,0 +1,4 @@
+{
+  "extends": "@renyzera-ds/ts-config/react.json",
+  "include": ["src"]
+}
