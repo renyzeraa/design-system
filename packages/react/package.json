@@ -7,15 +7,17 @@
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",
-        "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+        "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+        "lint": "eslint src/**/*.{ts,tsx} --fix"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "type": "commonjs",
     "devDependencies": {
-        "@renyzera-ds/tokens": "^1.0.0",
+        "@renyzera-ds/tokens": "*",
         "@renyzera-ds/ts-config": "*",
+        "@renyzera-ds/eslint-config": "*",
         "tsup": "^8.5.1",
         "typescript": "^5.9.3"
     }
